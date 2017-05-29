@@ -25,7 +25,7 @@ async def on_message(message):
 		await client.send_message(message.channel, msg)
 	if message.content.startswith('!twat'):		#the one u love
 		zevsmsg = 'Did you mean <@!173547110388465664>'
-		await client.send_message(message.channel, zevsmsg)
+		await client.send_message(message.channel, zevsmsg) "the zevsmsg has to be different form all the other msgs, it can be anything tho"
 	if message.content.startswith('!shuttle'):		#shuttle
 		shmsg = 'http://imgur.com/a/7NUDR'
 		await client.send_message(message.channel, shmsg)
